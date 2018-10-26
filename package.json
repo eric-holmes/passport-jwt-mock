@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "description": "Mock strategy for testing JWT authentication with `passport`.",
   "main": "index.js",
-  "scripts": {
-
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ewholmes/passport-jwt-mock.git"
@@ -21,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/ewholmes/passport-jwt-mock/issues"
   },
-  "homepage": "https://github.com/ewholmes/passport-jwt-mock#readme"
+  "homepage": "https://github.com/ewholmes/passport-jwt-mock#readme",
+  "devDependencies": {}
 }
