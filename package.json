@@ -1,6 +1,6 @@
 {
   "name": "passport-jwt-mock",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Mock strategy for testing JWT authentication with `passport`.",
   "main": "index.js",
   "scripts": {},
