@@ -2,7 +2,7 @@
 
 Mock passport JWT strategy for testing a Node.js application.
 
-This module allows you authenticate a fake user in a Node application using your existing  `jwtStrategy.authenticate()` function, to allow for easy testing of routes.
+This module allows you authenticate a fake user in a Node application using your existing  `passport-jwt` implementation to allow for easy testing of routes.
 
 ## Install
 
@@ -33,7 +33,7 @@ if (process.env.NODE_ENV === "test") {
 }
 ```
 
-Once you have replaced the the `jwtStrategy` object, you are nearly done! The implementation (however youused it) will work without modifying the implementation.
+Once you have replaced the the `jwtStrategy` object, you are nearly done! The implementation (however you used it) will work without modifying the implementation.
 
 ```javascript
 passport.use(
