@@ -1,4 +1,4 @@
-# passport-mock
+# passport-jwt-mock
 
 Mock passport JWT strategy for testing a Node.js application.
 
@@ -12,7 +12,7 @@ Install using `yarn`:
 $ yarn add passport-jwt-mock --dev
 ```
 
-Or use `npm` if you wish:
+Or `npm`:
 
 ```bash
 $ npm install passport-jwt-mock --save-dev
